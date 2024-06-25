@@ -1,0 +1,110 @@
+-- for creating table employee_acc with employee_info --
+
+USE testingDB;
+
+
+CREATE TABLE empl_info (
+    employee_id INT PRIMARY KEY IDENTITY(1,1),
+    employee_fullname VARCHAR(100) NOT NULL,
+	employee_email VARCHAR(100) NOT NULL,
+	employee_phone VARCHAR(100) NOT NULL,
+	employee_address VARCHAR(100) NOT NULL,
+	employee_position VARCHAR(100) NOT NULL,
+	hire_date DATE
+    -- Other columns...
+);
+
+-- Create empl_acc table
+CREATE TABLE employee_acc (
+    acc_id INT PRIMARY KEY IDENTITY(1,1),
+    employee_id INT NOT NULL,
+    employee_username VARCHAR(50),
+    employee_password VARCHAR(50),
+ 
+
+    CONSTRAINT FK_employee_info FOREIGN KEY (employee_id) REFERENCES employee_info(employee_id)
+);
+
+
+===================================================
+
+games_table made
+
+CREATE TABLE games_table (
+    game_id INT IDENTITY(1,1) PRIMARY KEY,
+    game_name VARCHAR(255) NOT NULL,
+    game_price DECIMAL(10, 2) NOT NULL,
+    game_quantity INT NOT NULL,
+    discount DECIMAL(5,2) DEFAULT 0
+);
+
+================================================
+
+transaction_table
+
+CREATE TABLE transactions (
+    transaction_id INT PRIMARY KEY IDENTITY(1,1),
+    employee_id INT NOT NULL,
+    game_id INT NOT NULL,
+    rental_start_date DATETIME NOT NULL,
+    rental_end_date DATETIME NOT NULL,
+    rental_price DECIMAL(10, 2) NOT NULL,
+    payment_method VARCHAR(50) NOT NULL,
+    staff_id INT NOT NULL,
+    transaction_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    transaction_status VARCHAR(20) NOT NULL,
+    customer_name VARCHAR(100) NOT NULL,
+    customer_phone VARCHAR(100) NOT NULL,
+    customer_address VARCHAR(100) NOT NULL,
+    customer_email VARCHAR(100) NOT NULL,
+
+    CONSTRAINT FK_empl_info_transaction FOREIGN KEY (employee_id) REFERENCES empl_info(employee_id),
+    CONSTRAINT FK_games_table_transaction FOREIGN KEY (game_id) REFERENCES games_table(game_id),
+    CONSTRAINT FK_empl_info_staff FOREIGN KEY (staff_id) REFERENCES empl_info(employee_id)
+);
+
+===================================================
+CREATE TABLE InvoiceTransactions (
+    InvoiceID INT PRIMARY KEY IDENTITY,
+    RentalStart DATE,
+    RentalEnd DATE,
+    EmployeeName NVARCHAR(100),
+    CustomerName NVARCHAR(100),
+    CustomerPhone NVARCHAR(20),
+    CustomerEmail NVARCHAR(100),
+    CustomerAddress NVARCHAR(255),
+    CustomerPayment DECIMAL(18, 2),
+    DepositAmount DECIMAL(18, 2),
+    RentDays INT,
+    Subtotal DECIMAL(18, 2),
+    Discount DECIMAL(18, 2),
+    TotalAmount DECIMAL(18, 2),
+    TransactionStatus NVARCHAR(50) DEFAULT 'Ongoing'
+);
+
+====================================================
+
+CREATE TABLE TransactionHistory (
+    TransactionID INT PRIMARY KEY IDENTITY,
+    InvoiceID INT,
+    RentalStart DATE,
+    RentalEnd DATE,
+    EmployeeName NVARCHAR(100),
+    CustomerName NVARCHAR(100),
+    CustomerPhone NVARCHAR(20),
+    CustomerEmail NVARCHAR(100),
+    CustomerAddress NVARCHAR(255),
+    CustomerPayment DECIMAL(18, 2),
+    DepositAmount DECIMAL(18, 2),
+    RentDays INT,
+    Subtotal DECIMAL(18, 2),
+    Discount DECIMAL(18, 2),
+    TotalAmount DECIMAL(18, 2),
+    Penalty DECIMAL(18, 2),
+    TransactionStatus NVARCHAR(50),
+    ListBoxItems ntext NULL,
+    ReceviedBy NVARCHAR(100)
+);
+
+
+
