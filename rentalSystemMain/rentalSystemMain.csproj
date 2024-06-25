@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{043E2037-83E7-4A04-8C09-B40D19AB01CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>rentalSystemMain</RootNamespace>
+    <AssemblyName>rentalSystemMain</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmployee.Designer.cs">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addGameDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addGameDiscount.Designer.cs">
+      <DependentUpon>addGameDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addGames.Designer.cs">
+      <DependentUpon>addGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDashboard.Designer.cs">
+      <DependentUpon>adminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminLoginForm.Designer.cs">
+      <DependentUpon>adminLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminMainPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminMainPanel.Designer.cs">
+      <DependentUpon>adminMainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createTransaction.Designer.cs">
+      <DependentUpon>createTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteEmployee.Designer.cs">
+      <DependentUpon>deleteEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteGame.Designer.cs">
+      <DependentUpon>deleteGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEmployee.Designer.cs">
+      <DependentUpon>editEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frontDeskMainPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frontDeskMainPanel.Designer.cs">
+      <DependentUpon>frontDeskMainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryLoginForm.Designer.cs">
+      <DependentUpon>inventoryLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryMainPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryMainPanel.Designer.cs">
+      <DependentUpon>inventoryMainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="invoiceTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoiceTransaction.Designer.cs">
+      <DependentUpon>invoiceTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="onGoingTransactionFrontDesk.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="onGoingTransactionFrontDesk.Designer.cs">
+      <DependentUpon>onGoingTransactionFrontDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ongoingTransactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ongoingTransactions.Designer.cs">
+      <DependentUpon>ongoingTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staffLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffLoginForm.Designer.cs">
+      <DependentUpon>staffLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transactionHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="transactionHistory.Designer.cs">
+      <DependentUpon>transactionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateGame.Designer.cs">
+      <DependentUpon>updateGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewAvailableItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewAvailableItems.Designer.cs">
+      <DependentUpon>viewAvailableItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewEmployee.Designer.cs">
+      <DependentUpon>viewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewEmployeeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewEmployeeInfo.Designer.cs">
+      <DependentUpon>viewEmployeeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewGameCatalog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewGameCatalog.Designer.cs">
+      <DependentUpon>viewGameCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTransaction.Designer.cs">
+      <DependentUpon>viewTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewTransactionFrontDesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTransactionFrontDesk.Designer.cs">
+      <DependentUpon>viewTransactionFrontDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewTransactionHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewTransactionHistory.Designer.cs">
+      <DependentUpon>viewTransactionHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addEmployee.resx">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addGameDiscount.resx">
+      <DependentUpon>addGameDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addGames.resx">
+      <DependentUpon>addGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDashboard.resx">
+      <DependentUpon>adminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminLoginForm.resx">
+      <DependentUpon>adminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminMainPanel.resx">
+      <DependentUpon>adminMainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createTransaction.resx">
+      <DependentUpon>createTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteEmployee.resx">
+      <DependentUpon>deleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteGame.resx">
+      <DependentUpon>deleteGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEmployee.resx">
+      <DependentUpon>editEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frontDeskMainPanel.resx">
+      <DependentUpon>frontDeskMainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryLoginForm.resx">
+      <DependentUpon>inventoryLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryMainPanel.resx">
+      <DependentUpon>inventoryMainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoiceTransaction.resx">
+      <DependentUpon>invoiceTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="onGoingTransactionFrontDesk.resx">
+      <DependentUpon>onGoingTransactionFrontDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ongoingTransactions.resx">
+      <DependentUpon>ongoingTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="staffLoginForm.resx">
+      <DependentUpon>staffLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transactionHistory.resx">
+      <DependentUpon>transactionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateGame.resx">
+      <DependentUpon>updateGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewAvailableItems.resx">
+      <DependentUpon>viewAvailableItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewEmployee.resx">
+      <DependentUpon>viewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewEmployeeInfo.resx">
+      <DependentUpon>viewEmployeeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewGameCatalog.resx">
+      <DependentUpon>viewGameCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewTransaction.resx">
+      <DependentUpon>viewTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewTransactionFrontDesk.resx">
+      <DependentUpon>viewTransactionFrontDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewTransactionHistory.resx">
+      <DependentUpon>viewTransactionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 170524.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 171052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 171508.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 173133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 173341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-05-20 175320.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\admin1.png" />
+    <None Include="Resources\admin2.png" />
+    <Content Include="Resources\AdminButt.png" />
+    <None Include="Resources\totalgames.png" />
+    <None Include="Resources\returned.png" />
+    <None Include="Resources\transaction1.png" />
+    <None Include="Resources\transaction.png" />
+    <None Include="Resources\transacbtn.png" />
+    <None Include="Resources\FrontButtons - Copy - Copy.png" />
+    <None Include="Resources\availgamebtn.png" />
+    <None Include="Resources\bgto.png" />
+    <None Include="Resources\employeesbtn.png" />
+    <None Include="Resources\employee.png" />
+    <None Include="Resources\emp.png" />
+    <Content Include="Resources\FrontButtons - Copy.png" />
+    <None Include="Resources\FrontButtons.png" />
+    <None Include="Resources\frontdesk.png" />
+    <None Include="Resources\frontdesk1.png" />
+    <Content Include="Resources\FrontDeskButton.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\home1.png" />
+    <None Include="Resources\homebtn.png" />
+    <None Include="Resources\inventory.png" />
+    <None Include="Resources\inventory1.png" />
+    <Content Include="Resources\InventoryButton.png" />
+    <None Include="Resources\itemlistbtn.png" />
+    <None Include="Resources\logoutbtn.png" />
+    <None Include="Resources\ongoingbtn.png" />
+    <None Include="Resources\playpass.png" />
+    <None Include="Resources\missing.png" />
+    <None Include="Resources\logo.jpg" />
+    <None Include="Resources\logo2.jpg" />
+    <None Include="Resources\logo21.jpg" />
+    <None Include="Resources\logo22.jpg" />
+    <None Include="Resources\logo23.jpg" />
+    <Content Include="Resources\Press Start 2P.png" />
+    <Content Include="Resources\Press Start 2P1.png" />
+    <Content Include="Resources\Press Start 2P2.png" />
+    <Content Include="Resources\Press Start 2P3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

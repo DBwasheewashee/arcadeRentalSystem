@@ -1,0 +1,138 @@
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addEmployee.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGameDiscount.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGames.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminDashboard.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminLoginForm.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminMainPanel.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.createTransaction.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteEmployee.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteGame.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.editEmployee.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Form1.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryLoginForm.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.invoiceTransaction.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.ongoingTransactions.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Properties.Resources.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.staffLoginForm.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.transactionHistory.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.updateGame.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewAvailableItems.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployee.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployeeInfo.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewGameCatalog.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransaction.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.GenerateResource.cache
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe.config
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.pdb
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.xml
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.xml
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.xml
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSy.8DCB7439.Up2Date
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.exe
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.pdb
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionHistory.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryMainPanel.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.frontDeskMainPanel.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.onGoingTransactionFrontDesk.resources
+C:\Users\user\source\repos\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionFrontDesk.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe.config
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.pdb
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.xml
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.xml
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.xml
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addEmployee.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGameDiscount.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGames.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminDashboard.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminLoginForm.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminMainPanel.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.createTransaction.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteEmployee.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteGame.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.editEmployee.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Form1.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.frontDeskMainPanel.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryLoginForm.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryMainPanel.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.invoiceTransaction.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.onGoingTransactionFrontDesk.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.ongoingTransactions.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Properties.Resources.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.staffLoginForm.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.transactionHistory.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.updateGame.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewAvailableItems.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployee.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployeeInfo.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewGameCatalog.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransaction.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionFrontDesk.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionHistory.resources
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.GenerateResource.cache
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSy.8DCB7439.Up2Date
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.exe
+C:\Users\user\source\repos\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.pdb
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe.config
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.exe
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\itextsharp.xml
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.xml
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\PdfSharp.Charting.xml
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addEmployee.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGameDiscount.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.addGames.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminDashboard.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminLoginForm.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.adminMainPanel.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.createTransaction.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteEmployee.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.deleteGame.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.editEmployee.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Form1.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.frontDeskMainPanel.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryLoginForm.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.inventoryMainPanel.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.invoiceTransaction.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.onGoingTransactionFrontDesk.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.ongoingTransactions.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.Properties.Resources.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.staffLoginForm.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.transactionHistory.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.updateGame.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewAvailableItems.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployee.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewEmployeeInfo.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewGameCatalog.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransaction.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionFrontDesk.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.viewTransactionHistory.resources
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSy.8DCB7439.Up2Date
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.exe
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\obj\Debug\rentalSystemMain.pdb
+C:\Users\user\Desktop\Adv Database Backup\forFinalPresentation\mainProject\rentalSystemMain\rentalSystemMain\bin\Debug\rentalSystemMain.pdb
